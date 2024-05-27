@@ -1,0 +1,80 @@
+/* * {
+  margin: 0;
+  pad: 0;
+} */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  border: 10px solid #6703aaa8;
+  border-radius: 20px;
+}
+h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: rgba(20, 192, 204, 0.63);
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#todoInput {
+  height: 24px;
+  width: 45vw;
+  border-radius: 1px solid lightgray;
+  border-radius: 5px;
+}
+#addTask {
+  background-color: rgba(211, 224, 28, 0.753);
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}
+#todoList {
+  margin: 15px;
+}
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 10px;
+  width: 50vw;
+  border-radius: 5px;
+  background-color: azure;
+}
+
+.todoItem span {
+  text-align: center;
+  margin-right: 10px;
+  width: 70%;
+  overflow: hidden;
+}
+.todoItem.checked {
+  background-color: #84dccf;
+}
+
+input[type="checkbox"] {
+  accent-color: #6e3c6a;
+}
+
+button {
+  margin: 5px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.fas {
+  color: #2f2f2f;
+}
+.fa-plus {
+  color: aliceblue;
+}
